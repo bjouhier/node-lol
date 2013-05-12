@@ -30,7 +30,7 @@ You can also directly run it:
 
 ```sh
 $ lol examples/hello
-``
+```
 
 # Syntax
 
