@@ -41,7 +41,9 @@ The language has been slightly changed/extended to better deal with node and Jav
 ## Properties, indexers and function calls
 
 `FOO 'Z BAR` -> `FOO.BAR`
+
 `FOO WIZ BAR AN ZOO ENUF` -> `FOO(BAR, ZOO)`
+
 `FOO WIZ ENUF` -> `FOO()`
 
 ## First class functions
