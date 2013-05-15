@@ -14,13 +14,13 @@ I HAS A DELAY ITZ 1000
 
 HOW DUZ I SALUTE YR DUZ WAYT AN YR YOU
 	VISIBLE "WAIT A SEC..."
-	setTimeout WAYT FOR IT AN DELAY
+	setTimeout WIZ WAYT AN DELAY ENUF
 	VISIBLE "MOAR WAIT..."
-	setTimeout WAYT FOR IT AN DELAY
+	setTimeout WIZ WAYT AN DELAY ENUF
 	VISIBLE SMOOSH "HELLO " AN YOU
 IF U SAY SO
 
-SALUTE DUDE WAYT WHAT? AN " DUDE"
+SALUTE WIZ WAYT AN " DUDE" ENUF
 KTHXBYE
 ^D
 $ lol hello
@@ -38,7 +38,7 @@ See http://code.google.com/p/loljs/
 
 The language has been slightly changed/extended to better deal with node and JavaScript. 
 
-## Properties, indexers and function calls
+## Properties and function calls
 
 `FOO 'Z BAR` -> `FOO.BAR`
 `FOO WIZ BAR AN ZOO ENUF` -> `FOO(BAR, ZOO)`
@@ -58,28 +58,28 @@ You cannot call user functions as `FOO ARG` any more, you have to call them as `
 
 EZ! 
 
-To wait on an async call and get a result, just pass `WAYT FOR IT`or `DUDE WAYT WHAT?` for the callback arguement:
+To wait on an async call and get a result, just pass `WAYT`or `WAIT` for the callback arguement:
 
 ```
-I HAS A TXT ITZ FS 'Z readFile WIZ PATH AN "utf3" AN WAYT FOR IT ENUF
+I HAS A TXT ITZ FS 'Z readFile WIZ PATH AN "utf3" AN WAYT ENUF
 VISIBLE TXT
 ```
 
-If you don't want to wait, pass `LATR` or `LATER`instead and you will obtain a future on which you can wait to get the result later:
+If you don't want to wait, pass `LATR` or `LATER` instead and you will obtain a future on which you can wait to get the result later:
 
 ```
 I HAS A READER ITS FS 'Z readFile WIZ PATH AN "utf3" AN LATR ENUF
 BTW DO OTHER THINGS ....
-I HAS A TXT ITS READER WIZ WAIT FOR IT ENUF
+I HAS A TXT ITS READER WIZ WAYT ENUF
 VISIBLE TXT
 ```
 
-To define asynchronous functions. Just give it a `DUZ WAYT` parameter:
+To define asynchronous functions. Just give it a `DUZ WAYT` or `DUZ WAIT` parameter:
 
 
 ```
 HOW DUZ I READTEXT YR DUZ WAYT AN YR PATH
-  FOUND FS 'Z readFile WIZ PATH AN "utf3" AN WAYT FOR IT ENUF
+  FOUND FS 'Z readFile WIZ PATH AN "utf3" AN WAYT ENUF
 IF U SAY SO
 ```
 
