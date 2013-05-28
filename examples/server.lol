@@ -1,5 +1,6 @@
+HAI 
 CAN HAS FS "fs"?
-CAN HAS ST "streamline/lib/streams/server/streams"?
+CAN HAS ST "../lib/streams"?
 
 HOW DUZ I DISPATCH YR REQ AN YR RESP AN DUZ WAYT
 	I HAS A SEGS ITZ REQ'Z url'Z split WIZ "?" ENUF

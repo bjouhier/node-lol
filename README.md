@@ -1,4 +1,4 @@
-I CAN HAS NODE DOT DJAY ESS
+I CAN HAS NODE.JS
 
 # Installation
 
@@ -10,6 +10,7 @@ npm install -g node-lol
 
 ``` sh
 $ cat > hello.lol
+HAI
 I HAS A DELAY ITZ 1000
 
 HOW DUZ I SALUTE YR DUZ WAYT AN YR YOU
