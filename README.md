@@ -64,14 +64,14 @@ EZ!
 To wait on an async call and get a result, just pass `WAYT`or `WAIT` for the callback arguement:
 
 ```
-I HAS A TXT ITZ FS 'Z readFile WIZ PATH AN "utf3" AN WAYT ENUF
+I HAS A TXT ITZ FS 'Z readFile WIZ PATH AN "utf8" AN WAYT ENUF
 VISIBLE TXT
 ```
 
 If you don't want to wait, pass `LATR` or `LATER` instead and you will obtain a future on which you can wait to get the result later:
 
 ```
-I HAS A READER ITS FS 'Z readFile WIZ PATH AN "utf3" AN LATR ENUF
+I HAS A READER ITS FS 'Z readFile WIZ PATH AN "utf8" AN LATR ENUF
 BTW DO OTHER THINGS ....
 I HAS A TXT ITS READER WIZ WAYT ENUF
 VISIBLE TXT
@@ -82,7 +82,7 @@ To define asynchronous functions. Just give it a `DUZ WAYT` or `DUZ WAIT` parame
 
 ```
 HOW DUZ I READTEXT YR DUZ WAYT AN YR PATH
-  FOUND FS 'Z readFile WIZ PATH AN "utf3" AN WAYT ENUF
+  FOUND FS 'Z readFile WIZ PATH AN "utf8" AN WAYT ENUF
 IF U SAY SO
 ```
 
