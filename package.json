@@ -1,16 +1,21 @@
 {
   "name": "node-lol",
   "description": "I CAN HAS NODE.JS",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/bjouhier/node-lol.git"
   },
-  "engines": { "node": ">=0.6.0" },
-  "dependencies": { 
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "dependencies": {
     "streamline": "^0.4.11"
   },
   "author": "Bruno Jouhier",
-  "directories": {"lib": "./lib", "bin": "./bin" },
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
   "main": "lib/index.js"
 }
