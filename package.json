@@ -7,7 +7,9 @@
     "url": "git://github.com/bjouhier/node-lol.git"
   },
   "engines": { "node": ">=0.6.0" },
-  "dependencies": { "streamline": ">= 0.4.11"},
+  "dependencies": { 
+    "streamline": "^0.4.11"
+  },
   "author": "Bruno Jouhier",
   "directories": {"lib": "./lib", "bin": "./bin" },
   "main": "lib/index.js"
